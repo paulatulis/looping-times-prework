@@ -3,6 +3,10 @@ def using_times
 	  puts "Wingardium Leviosa"
 end
 
+donuts = 10 
 
-
+5.times do 
+  puts "I just ate #{donuts} donuts."
+donuts = donuts - 1 
+end 
 
